@@ -1,6 +1,6 @@
 const readFileToArray = require('./aux/readFileToArray');
 
-const lines = readFileToArray('inputs/day1_1.txt');
+const lines = readFileToArray('inputs/day1.txt');
 const sep = '  ';
 
 const arrays = [lines.map(d => parseInt(d.split(sep)[0])), lines.map(d => parseInt(d.split(sep)[1]))]
