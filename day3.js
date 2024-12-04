@@ -1,6 +1,8 @@
 import readFileToArray from './aux/readFileToArray.js';
 
-const input = readFileToArray('inputs/day3.txt').join('')
+const input_r = await readFileToArray('inputs/day3.txt')
+
+const input = input_r.join('');
 
 const testInput = "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))"
 

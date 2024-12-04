@@ -1,6 +1,6 @@
 import readFileToArray from './aux/readFileToArray.js';
 
-const lines = readFileToArray('inputs/day1.txt');
+const lines = await readFileToArray('inputs/day1.txt');
 const sep = '  ';
 
 const arrays = [lines.map(d => parseInt(d.split(sep)[0])), lines.map(d => parseInt(d.split(sep)[1]))]
