@@ -1,4 +1,4 @@
-const readFileToArray = require('./aux/readFileToArray');
+import readFileToArray from './aux/readFileToArray.js';
 
 const input = readFileToArray('inputs/day3.txt').join('')
 

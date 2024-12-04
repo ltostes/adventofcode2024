@@ -1,4 +1,4 @@
-const readFileToArray = require('./aux/readFileToArray');
+import readFileToArray from './aux/readFileToArray.js';
 
 const lines = readFileToArray('inputs/day1.txt');
 const sep = '  ';
